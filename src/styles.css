@@ -1,12 +1,26 @@
-h1 {
+h1,
+p {
   text-align: center;
 }
 
 .croissant-image {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
+  border-radius: 4px;
 }
 
 .links {
   text-align: center;
+  color: rgb(107, 134, 7);
+}
+
+.links a {
+  margin: 10px;
+}
+.links a:visited {
+  color: rgb(53, 207, 212);
+}
+
+body {
+  background-color: #f4dfc0;
 }
